@@ -33,5 +33,5 @@
         docker build -t pega:latest .
     # Run Pega
         docker run --name pega -p 8080:8080 pega:latest
-    # Pega access url
+    # Pega access
     http://localhost:8080/
